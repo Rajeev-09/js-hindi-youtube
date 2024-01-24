@@ -18,14 +18,26 @@ myArr2.pop()//it can remove the value of array
 // console.log(myArr2.includes(9));//it can check the number is existing in the array or not 
 // console.log(myArr2.indexOf(4));// it can find the index of the value in array
 
-const newArr = myArr2.join()//it can bind the value and converted into the string
+// const newArr = myArr2.join()//it can bind the value and converted into the string
 
 // console.log(myArr2);
 // console.log(newArr);
 
 // slice and splice
 
-console.log(myArr2);
+// console.log(myArr2);
+
 console.log("A ", myArr2);
 
 const myn1 = myArr2.slice(1,3)
+
+console.log(myn1);
+console.log("B ", myArr);
+
+
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr);
+console.log(myn2);
+
+//summary h ki slice ma last digit print nhi hoti h or splice ma last digit print hoti h but jo print hoti ky h 
+// voh bhi original data se ht jata h 

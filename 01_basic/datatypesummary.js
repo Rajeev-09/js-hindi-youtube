@@ -7,7 +7,7 @@
 
 // primitive that are known as (refrence value)call by value it mean when the call by value 
 // of the primitive data type is in the form of copy of data not a orignal data they 
-// don't show in this primitive datatype 
+// don't show the original copies in this primitive datatype 
 // It mean the change in the copy not a orignal data 
 
 // Objects,array,function
