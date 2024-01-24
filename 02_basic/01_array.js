@@ -40,4 +40,4 @@ console.log("C ", myArr);
 console.log(myn2);
 
 //summary h ki slice ma last digit print nhi hoti h or splice ma last digit print hoti h but jo print hoti ky h 
-// voh bhi original data se ht jata h 
+// voh bhi original data se ht jata h
