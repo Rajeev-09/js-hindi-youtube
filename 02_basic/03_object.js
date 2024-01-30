@@ -21,8 +21,9 @@ const JsUser = {
 // console.log(JsUser["Full name"]);//agar kisko access karna h toh hme string wli value 
 // ko access karna h toh esko hm square bracs se hi access kr skte hn thik h bhai
 
-// Interview Qus:> create the a symbol and it act like as a key then print the symbol
+// Interview important Qus :> create the a symbol and it act like as a key then print the symbol
 
+console.log(typeof JsUser.mySym);//undefined bta rha h koki yeh treat ho rha h ki yeh ek symbol nhi h
 // console.log(JsUser.mySym);// esma maine yeh declare toh kr diya h but esko access toh kr pa rha hu ma but
 // yeh symbol ki trah se use nhi ho rha h thik h na usko access asie krta hn
 // console.log(JsUser); // yeh toh symbol ki trah treat hone lga gya h
@@ -36,15 +37,15 @@ const JsUser = {
 
 
 JsUser.greeting = function(){
-    console.log("Hello Js user");
+    // console.log("Hello Js user");
 }
   
 // console.log(JsUser.greeting());
 
 
 JsUser.greetingTwo = function(){
-    console.log(`Hello Js user,${this.name}`);
+    // console.log(`Hello Js user,${this.name}`);
 }
   
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());

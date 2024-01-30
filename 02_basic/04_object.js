@@ -74,3 +74,5 @@ const {CourseInstructor: instructor} = course
 
 // console.log(CourseInstructor);
 console.log(instructor);
+
+// json is a javascript object notation 
