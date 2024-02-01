@@ -17,11 +17,11 @@ function addTwoNumber(num1,num2) {
 // addTwoNumber(3,4)
 
 // parameter jab hmne f(x) ma num1 and num2 diya h tab yeh parameter hota h
-// jab hm logo esko call krta hn toh esko argument bol ta hn 
+// jab hm logo esko call krta hn toh esko argument(value) bol ta hn 
 
 // result ko print karne ke  tarika
 
-// step 1
+// step 1   
 
 // function addTwoNumber(num1,num2) {
 //     let result = num1 +num2
@@ -39,7 +39,7 @@ function addTwoNumber(num1,num2) {
 
 const result = addTwoNumber(4,4)
 // console.log("Result:",result);
-// esma diyna de wla bta yeh h ki agar result ko store krna h toh hm return show krna hi pd gya
+// esma dhyna de wla bta yeh h ki agar result ko store krna h toh hm return show krna hi pd gya
 
 
 function userLoginMessage(username) {
@@ -51,7 +51,6 @@ function userLoginMessage(username) {
         console.log("Please enter the username");
         return
     }
-    
     return `${username} Just logged In`
 }
 
@@ -63,7 +62,7 @@ function userLoginMessage(username = "sam") {
         console.log("Please enter the username");
         return
     }
-    return `${username} just logged In`
+    return `${username} just logged In`   
 }
 
 // function calculateCartPrice(...num1) {
@@ -100,3 +99,4 @@ function returnSecondValue(getArray) {
 }
 
 console.log(returnSecondValue(myNewArray));
+             
